@@ -9,7 +9,10 @@ const PORT = 4000;
 app.use(express.json())
 
 app.get('/',(req,res)=>{
-res.status(200).send("Welcome to NodeJS file system management.")
+res.status(200).send(`Welcome to NodeJS file system management.
+    To create a text(.txt) file go to "https://nodejs-day1-task-39lj.onrender.com/create-file"
+    To get all the text(.txt) files in the folder go to "https://nodejs-day1-task-39lj.onrender.com/get-files"` 
+)
 })
 
 //Create a .txt file
