@@ -9,7 +9,7 @@ const PORT = 4000;
 app.use(express.json())
 
 app.get('/',(req,res)=>{
-res.status(200).send("Welcome")
+res.status(200).send("Welcome to NodeJS file system management.")
 })
 
 //Create a .txt file
